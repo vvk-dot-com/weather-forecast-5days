@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import WeatherForecast from './WeatherForecast';
+import { Typography, AppBar, Toolbar } from '@mui/material';
+import CloudIcon from '@mui/icons-material/Cloud';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <AppBar>
+        <Toolbar>
+          <Typography variant='h3' style={{color:"HighlightText"}}> <CloudIcon fontSize="large" />Weather</Typography>
+        </Toolbar>
+      </AppBar>
+      <WeatherForecast />
     </div>
-  );
+  )
 }
 
 export default App;

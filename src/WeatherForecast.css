@@ -1,0 +1,60 @@
+.background-wallpaper{
+    background-image: url('https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 675px;
+  }
+  
+  .forecast-forecast-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* padding: 10px; */
+      /* margin: 50px; */
+      
+      width: auto;
+      margin: 3%; 
+  }
+    .forecast-search-container {
+      margin: 5%;
+      color: red;
+      background-color: wheat;
+    }
+     .forecast-data-container { 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .forecast-items-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+       }
+    .forecast-item {
+      flex-wrap: wrap;
+      flex-direction: column;
+      display: flex;
+      margin: 20px;
+      margin-top: 30px;
+      margin-bottom: 25px;
+      text-align: left;
+      color: rgb(2, 16, 74);
+      font-style: oblique;
+      background-color:rgba(245, 248, 249, 0.292);
+      border-radius: 15px;
+      width: 200px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+  
+  
+  
+   
+    
