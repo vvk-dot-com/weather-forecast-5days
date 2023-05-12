@@ -2,8 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
+## after cloning into your Local machine install following 
+
+# npm install @mui/material @emotion/react @emotion/styled 
+
+# npm install @fontsource/roboto
+
+# npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+
+## Available Scripts
 In the project directory, you can run:
 
 ### `npm start`
