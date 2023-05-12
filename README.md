@@ -5,9 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## after cloning into your Local machine install following packages 
 
-npm install @mui/material @emotion/react @emotion/styled 
-npm install @fontsource/roboto
-npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+# npm install @mui/material @emotion/react @emotion/styled 
+# npm install @fontsource/roboto
+# npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
 
 ## Available Scripts
 In the project directory, you can run:
